@@ -32,7 +32,7 @@ seasons = {
     (3, 15): "mid_season",
     (3, 29): "high_season",
     (5, 17): "mid_season",
-    (5, 24): "low_season", 
+    (5, 24): "low_season",
 }
 
 def parse_date(date_string):
