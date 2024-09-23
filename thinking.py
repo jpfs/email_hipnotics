@@ -28,11 +28,11 @@ room_prices = {
 
 # Sample data structure for seasons
 seasons = {
-    (22.02.2025, 15.03.2025): "low_season",
-    (15.03.2025, 29.03.2025): "mid_season",
-    (29.03.2025, 17.05.2025): "high_season",
-    (17.05.2025, 24.05.2025): "mid_season",
-    (24.05.2025, 30.08.2025): "low_season"
+    (2, 22): "low_season",
+    (3, 15): "mid_season",
+    (3, 29): "high_season",
+    (5, 17): "mid_season",
+    (5, 24): "low_season",
 }
 
 def parse_date(date_string):
